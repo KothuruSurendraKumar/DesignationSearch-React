@@ -30,14 +30,14 @@ class DestinationSearch extends Component {
               className="search-item"
             />
             <img
-              alt="img"
+              alt="search icon"
               src="https://assets.ccbp.in/frontend/react-js/destinations-search-icon-img.png"
               className="search-icon"
             />
           </div>
           <ul className="list-container">
             {searchResults.map(each => (
-              <DestinationItem key={each.id} destinationDetails={each} />
+              <DestinationItem key={each.id} destinationsDetails={each} />
             ))}
           </ul>
         </div>
